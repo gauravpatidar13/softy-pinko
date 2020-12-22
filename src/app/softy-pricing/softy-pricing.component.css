@@ -1,0 +1,56 @@
+.pricing h1{
+    text-align: center;
+}
+.pricing p{
+    text-align: center;
+}
+.pricing{
+    background:#f3f5f7;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.mcard{
+    width: 300px;
+    height: 450px;
+    background:#fff;
+    margin:10px 15px;
+    border-radius: 30px;
+}
+.mcard h2{
+    text-align: center;
+    padding-top: 50px;
+}
+.mcard .btn2{
+    background: #ff599e;
+}
+.mcard .btn1{
+    background:#8261ee;
+}
+.mcard h5{
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+.mcard .purchase{
+    color:#fff;
+    border-radius: 40px;
+    padding:10px 20px;
+    background: #8261ee;
+}
+.mcard .des{
+height: 170px;
+padding-top: 30px;
+}
+.mcard button{
+  
+    border:none;
+    padding:20px 30px;
+    color:#fff;
+    font-size: 18px;
+    width: 200px;
+    margin-left: 50%;
+    transform: translate(-50%,0);
+    border-radius: 10px;
+}

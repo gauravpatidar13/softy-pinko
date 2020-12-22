@@ -1,0 +1,65 @@
+.say h1{
+    text-align: center;
+    font-weight: 100;
+}
+.say p{
+    text-align: center;
+    width: 500px;
+    margin-left: 50%;
+    transform: translate(-50%,0);
+}
+.say{
+    padding-top: 20px;
+}
+.mcard img{
+    margin-left: 50%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    transform: translate(-50%,0);
+}
+
+ .mcard{
+    width: 350px;
+    height: 400px;
+    margin:10px 20px;
+    background:#fff;
+    box-shadow: 0px 0px 4px gray;
+    display: flex;
+    flex-direction: column;
+}
+.mcard .para{
+    width: auto;
+}
+.ft{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.ft img{
+    width: 60px;
+    height: 60px;
+    background:gray;
+    margin:15px 15px;
+    border-radius: 50%;
+    transform: translate(0,0);
+}
+.wio{
+    width: 140px;
+    display: flex;
+    flex-direction: column;
+}
+.wio h1{
+    margin-bottom: 0;
+}
+.wio p{
+    margin:0;
+    width: auto;
+    transform: translate(0,0);
+}
+.ft h1{
+    font-size: 18px;font-weight: 100;
+}
+.ft p{
+    color:hotpink;
+}

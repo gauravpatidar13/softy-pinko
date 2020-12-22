@@ -1,0 +1,117 @@
+.rty{
+    height: 450px;
+    background:#000;
+    display: flex;
+    flex-direction: row;
+}
+.lty{
+    width: 500px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 50px;
+}
+.rt{
+    position: relative;
+}
+.rt video{
+    position: absolute;
+    top: 40px;
+    left: 50px;
+    width: 390px;
+    left: 120px;
+}
+.rt img{
+    position: absolute;
+    z-index: 2;
+}
+.lty h1{
+    font-size: 40px;
+    color:#fff;
+}
+.lty h3{
+    color:#fff;
+    font-size: 20px;
+}
+@media (min-width:992px) and (max-width:1199px){
+    .rt video{
+        position: absolute;
+        top: 40px;
+        left: 50px;
+        width: 360px;
+        left: 120px;
+    }
+    .rt img{
+        position: absolute;
+        z-index: 2;
+        width: 550px;
+    }   
+    .lty {
+        width: 385px;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 50px;
+    }
+}
+@media (min-width:767px) and (max-width:991px){
+    .rt video{
+        position: absolute;
+        top: 30px;
+        width: 290px;
+        left: 80px;
+    }
+    .rt img{
+        position: absolute;
+        z-index: 2;
+        width: 450px;
+        margin-left: 50%;
+        transform: translate(-50%,0);
+    }
+    .rty{
+        height: 500px;
+        background:#000;
+        display: flex;
+        flex-direction: column;
+    }   
+}
+@media (min-width:568px) and (max-width:768px){
+    .rty{
+        height: 650px;
+        background:#000;
+        display: flex;
+        flex-direction: column;
+    }   
+    .rt img{
+        position: absolute;
+        z-index: 2;
+        width: 568px;
+        margin-left: 50%;
+        transform: translate(-50%,0);
+    }
+}
+@media (max-width:567px){
+    .rty{
+        height: 500px;
+        background:#000;
+        display: flex;
+        flex-direction: column;
+    }
+    .rt img{
+        position: absolute;
+        z-index: 2;
+        margin-left: 50%;
+        transform: translate(-50%,0);
+        width: 320px;
+    }
+    .rt video{
+        position: absolute;
+        top: 22px;
+        width: 200px;
+        left: 63px;
+    }
+    .lty{
+        width: auto;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 50px;
+    }    
+}

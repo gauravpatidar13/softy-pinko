@@ -1,0 +1,48 @@
+.sf{
+    background-image:url('/assets/images/banner-bg.png');
+    height: 320px;
+    background-size: cover;
+    color:#fff;
+}
+.sf h1{
+    text-align: center;
+    padding-top: 20px;
+}
+.sf p{
+    text-align: center;
+}
+.row{
+    margin-top: -200px;
+}
+.mcard{
+    width: 280px;
+    background:#fff;
+    height: 300px;
+    margin:10px 30px;
+    padding-top: 30px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 2px gray;
+}
+.wr{
+    background:#8261ee;
+    width: 90px;
+    height:90px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 50%;
+    margin-left: 50%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    transform: translate(-50%,0);
+}
+
+.mcard h1{
+    text-align: center;
+}
+.mcard p{
+ padding-left: 20px;
+ padding-right: 20px;
+    text-align: center;
+}
